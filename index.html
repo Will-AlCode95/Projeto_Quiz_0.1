@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <title>Quiz para Programadores</title>
+    <link rel="stylesheet" href="style.css">
+    <meta
+      meta charset="utf-8"
+      name="description"
+      content="Um quiz interativo para testar seus conhecimentos."
+      
+  </head>
+  <body>
+    <header>
+      <h1>Quiz interativo para Programadores</h1>
+      <!-- Este é o cabeçalho principal -->
+      <p>
+        Teste seus conhecimentos em programação e veja qual a pontuação voçê
+        consegue fazer!
+      </p>
+    </header>
+  <main>
+      <section>
+        <!-- section: ajuda a estruturar o conteúdo de forma mais clara e compreensível, tanto para humanos quanto para máquinas (como motores de busca). -->
+        <h2>Sobre esse Quiz</h2>
+        <p>
+          <strong>Este quiz</strong> foi desenvolvido para testar seus
+          <!-- strong:realça o texto fortemente -->
+          conhecimentos em programação, como <em>linguagem de programação</em>,
+          <!-- em:realça o texto um pouco -->
+          conceitos básicos e mais.
+        </p>
+        <p>
+          Você encontrará diferentes tipos de perguntas, incluindo múltipla
+          escola, texto e perguntas de data. <br />
+          Desafie-se com este quiz!
+          <!-- br:quebra linha -->
+        </p>
+        <p>
+          Você poderá encontrar alguns acrônicos como
+          <abbr title="HyperText Markup Language">HTML</abbr> e
+          <abbr title="Cascading Style Sheets">CSS</abbr>, que são os elementos
+          comumente usados em questôes relacionadas ao desenvolvimento de
+          websites.
+        </p>
+      </section>
+      <!--pergunta 1-->
+      <section>
+        <h2>
+          Pergunta 1: Qual linguegem é usada para estruturar páginas websites?
+        </h2>
+        <form>
+          <input type="radio" value="Python" id="p1a" name="pergunta-1" />
+          <label for="p1a">Python</label><br />
+          <input type="radio" value="HTML" id="p1b" name="pergunta-1" />
+          <label for="p1b">HTML</label><br />
+          <input type="radio" value="C#" id="p1c" name="pergunta-1" />
+          <label for="p1c">CSS</label><br />
+          <input type="radio" value="JavaScript" id="p1d" name="pergunta-1" />
+          <label for="p1d">JavaScript</label><br />
+        </form>
+      </section>
+      <!--pergunta 2-->
+      <section>
+        <h2>
+          Pergunta 2: Na URL https://www.google.com o trecho "google.com"
+          é um_______?
+        </h2>
+        <form>
+          <input
+            type="text"
+            id="p2"
+            name="pergunta-2"
+            pleceholder="Digite sua Resposta..."
+          />
+        </form>
+      </section>
+      <!--pergunta 3-->
+      <section>
+        <h2>Pergunta 3: Escreva um exemplo de senha forte:</h2>
+        <form>
+          <input
+            type="password"
+            id="p3"
+            name="pergunta-3"
+            placeholder="Digite sua senha..."
+          />
+        </form>
+      </section>
+      <!--pergunta 4-->
+      <section>
+        <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão?</h2>
+        <form>
+          <input type="date" id="p4" name="pergunta-4" />
+        </form>
+      </section>
+     <!--pergunta 5-->
+     <section>
+        <h2>Pergunta 5: Qual dessas tecnologias são consideradas linguagens de programação?</h2>
+         <form>
+            <input
+            type="checkbox"
+            id="p5a"
+            name="pergunta-5"
+            value="JavaScript"
+            <label for="p5a">JavaScript</label><br/>
+            <input
+            type="checkbox"
+            id="p5b"
+            name="pergunta-5"
+            value="HTML"
+            <label for="p5b">HTML</label><br/>
+            <input
+            type="checkbox"
+            id="p5c"
+            name="pergunta-5"
+            value="Java"
+            <label for="p5c">Java</label><br/>
+            <input
+            type="checkbox"
+            id="p5d"
+            name="pergunta-5"
+            value="CSS"
+            <label for="p5d">CSS</label><br/>
+          
+          
+          
+          </form>
+     </section>
+    <!--pergunta 6 upload de arquivo-->
+     <section>
+        <h2>Pergunta 6: Faça um upload de arquivo contendo um código HTML</h2>
+        <form>
+          <input type="file" id="p6" name="pergunta-6">
+        </form>
+      </section>
+   <!--pergunta 7 menu suspenso-->
+    <section>
+        <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+         <form>
+          <select name="Pergunta-7" id="p7">  
+            <option value="id">id</option>
+            <option value="type">type</option>
+            <option value="placeholder">placeholder</option>
+            <option value="JavaScript">JavaScript</option>
+          </select>
+         </form>
+    </section>
+    <!--pergunta 8 imagem-->
+    <section>
+        <h2>Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+        <img src="./imagem/java.jpg" alt="logotipo-img-pergunta8"><br>
+        <input type="text" id="p8" name="pergunta-8" placeholder="Digite sua Resposta...">
+         <figcaption>Figura 1: Logotipo de uma Linguagem de programação.</figcaption>
+    </section>
+    
+    <!--Tabela de Pontuação-->
+    <section>
+      <h2>Tabela de Pontuação</h2>
+      <table border="1">
+        <thead>
+        <tr>
+          <th>Pontuação</th>
+          <th>Avaliação</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0-2</td>
+            <td>Não desista! Cada tentativa é uma opurtunidade de aprender mais.</td>
+          </tr>
+          <tr>
+            <td>3-4</td>
+             <td>Você ainda precisa melhorar. Estude mais Sobre programação.</td>
+          </tr>
+          <tr>
+            <td>5-7</td>
+            <td>Bom trabalho! Seu conhecimento em programação está satisfatório.</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Parabéns! Você concluiu o quiz com Maestria de um Engenheiro de Software.</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Boa sorte na próxima Avaliação</td> <!--colspan:numero de coluna que o elemento vai ocupar-->
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  <!--Tabela de Pontuação-->
+    <section>
+    <h2>Verifique suas respostas:</h2>
+     <details>
+      <summary>Clique aqui</summary>
+      <ol> <!--ol: lista numerada-->
+         <li>HTML</li>
+         <li>Domínio</li>
+         <li>3fd456tgf$&¨dv¨%&</li>
+         <li>1991</li>
+         <li>JavaScript, Java</li>
+         <li>Arquivo deve ter extensão .html</li>
+         <li>type</li>
+         <li>Java</li>
+       </ol>
+     </details> 
+    </section>
+ <!--Formulário de feedback-->
+   <section>
+   <h2>Feedback:</h2>
+    <form>
+        <fieldset>
+        
+          <legend>Informações de contato</legend>
+
+         <label for="Nome">Nome:</label>
+         <input type="text" id="Nome" name="Nome"><br>
+      
+         <label for="email">email:</label>
+         <input type="email" id="email" name="email"><br>
+      
+         <label for="comentarios">Comentários:</label><br>
+         <textarea id="comentários" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea><br>
+        <button onclick="alert('Seu feedback foi enviado com sucesso!')" type="submit">Envie o feedback</button>
+        </fieldset>
+    </form>
+
+  </main>
+    <footer>
+      <p>Quiz de programação - Copyright &copy; 2077</p>
+      <p>Para conhecer outros quizzes <a href="https://github.com/Will-AlCode95" target="_blank">clique aqui</a></p>
+    </footer>
+    
+  </body>
+</html>
