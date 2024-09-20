@@ -22,7 +22,3 @@ Para participar do quiz, basta clonar este repositório e abrir o arquivo `https
 ## 📝 Feedback
 
 Se tiver alguma sugestão ou feedback sobre o quiz, sinta-se à vontade para abrir uma issue neste repositório. Seu feedback é valioso para melhorar a experiência do quiz para outros participantes. 🙌
-
----
-
-Quiz de Programação - Desenvolvido por HTML_CSS_JS_Expert
